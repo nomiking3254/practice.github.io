@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Homepage</title>
 </head>
+
 <body>
     <nav class="navbar navbar-light bg-light" style="border-bottom: 1px solid black;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              Logo
-          </a>
+            <a class="navbar-brand" href="#">
+                Logo
+            </a>
         </div>
-      </nav>
-<img src="playstore.jpg" class="play" alt="download from playstore"/>
-<div class="flex">
-    <img src="1.jpg" class="nav1" alt="account" />
-    <img src="2.jpg" class="nav1" alt="account" />
-    <img src="3.jpg" class="nav1" alt="account" />
-    <img src="4.png" class="nav1" alt="account" />
-</div>
+    </nav>
+
+    <img src="playstore.jpg" class="play" alt="download from playstore" />
+    <div class="mt-5" style="display: flex; justify-content: space-evenly;">
+    <i class="fa fa-user" style="color: #fff; box-shadow: 1px 2px 3px gray; border-radius: 5px; width: 12%; font-size:9vw; height: auto; background-color: chocolate; text-align: center;"></i>
+    <i class="fa fa-car" style="color: #fff; border-radius: 5px; width: 12%; box-shadow: 1px 2px 3px gray; font-size:9vw; height: auto; background-color: orange; text-align: center;"></i>
+    <i class="fa fa-star" style="color: #fff; border-radius: 5px; width: 12%; box-shadow: 1px 2px 3px gray; font-size:9vw; height: auto; background-color: red; text-align: center;"></i>
+    <i class="fa fa-arrow-up" style="color: #fff; border-radius: 5px; width: 12%; box-shadow: 1px 2px 3px gray; font-size:9vw; height: auto; background-color: green; text-align: center;"></i>
+    </div>
 
 
 
@@ -34,11 +37,13 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         .play {
             width: 100%;
             height: auto;
         }
-        .nav1{
+
+        .nav1 {
             width: 20%;
             height: auto;
         }
