@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light" style="background-color: whitesmoke;">
+    <nav class="navbar navbar-light" style="background-color: #f2f2f2;">
         <a class="navbar-brand" href="#">
-          <img src="logo.png" width="100" height="50" alt="ultra">
+          <img src="logo.png" width="120" height="50" alt="ultra">
         </a>
       </nav>
 
     <img src="playstore.jpg" class="play" alt="download from playstore" />
-<div style="display: flex; ">
-    <button class="w">Withdraw</button>
+<div class="mt-3" style="display: flex; justify-content: space-evenly;">
     <button class="r">Recharge</button>
+    <button class="w">Withdraw</button>
 </div>
     <div class="plan">
         <h3>plans</h3>
@@ -45,11 +45,25 @@
             box-sizing: border-box;
          
         }
+        .w {
+            background-color: transparent;
+            border: 2px solid blue;
+            border-radius: 100px;
+            width: 25%;
+            height: auto;
+        }
+        .r {
+            background-color: blue;
+            border: 0px;
+            border-radius: 100px;
+            width: 25%;
+            height: auto;
+            color: white;
+        }
 
         .play {
             width: 100%;
             height: auto;
-            margin-top: -3%;
         }
 
         .nav1 {
